@@ -5,7 +5,7 @@ import torch.optim as optim
 # -----------------------------
 # 1) MLP backbone (standard PINN)
 # -----------------------------
-class MLP(nn.Module):
+class MLsmP(nn.Module):
     def __init__(self, in_dim=3, hidden=128, depth=4, act=nn.Tanh):
         super().__init__()
         layers = []
